@@ -1,24 +1,25 @@
 {
-    "posts": [
+    "cars": [
         {
             "id": 1,
-            "title": "json-server",
-            "author": "typicode"
-        },
-        {
-            "id": 2,
-            "title": "mock-server",
-            "author": "typicode"
-        }
+            "brand": "Tata",
+            "type":"Manual",
+            "year": 2019,
+            "kms": 10000,
+            "Description": "Tata Altroz with all original documents",
+            "Price": 500000
+          }
     ],
-    "comments": [
+    "wishlisted_cars": [
         {
             "id": 1,
-            "body": "some comment",
-            "postId": 1
-        }
-    ],
-    "profile": {
-        "name": "typicode"
-    }
+            "brand": "Tata",
+            "year": 2019,
+            "type":"Manual",
+            "kms": 10000,
+            "Description": "Tata Altroz with all original documents",
+            "Price": 500000
+          }
+    ]
+    
 }
